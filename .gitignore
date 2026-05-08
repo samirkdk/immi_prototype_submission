@@ -1,0 +1,4 @@
+/vendor/
+/immigration/vendor/
+.env
+.DS_Store

@@ -1,0 +1,13 @@
+{
+  "name": "immigration/portal",
+  "description": "Nepal Department of Immigration Portal",
+  "require": {
+    "phpmailer/phpmailer": "^6.9",
+    "twilio/sdk": "^8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Immigration\\": "src/"
+    }
+  }
+}
