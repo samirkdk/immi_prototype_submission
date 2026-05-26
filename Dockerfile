@@ -1,7 +1,7 @@
 FROM php:8.3-cli
 
-RUN apt-get update && apt-get install -y git unzip libzip-dev \
-    && docker-php-ext-install pdo pdo_mysql zip \
+RUN apt-get update && apt-get install -y git unzip libzip-dev libssl-dev \
+    && docker-php-ext-install pdo pdo_mysql zip sockets \
     && rm -rf /var/lib/apt/lists/*
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
