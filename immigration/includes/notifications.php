@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/../config/mail.php';
-$autoloadPath = __DIR__ . '/../../vendor/autoload.php';
+$autoloadPath = __DIR__ . '/../vendor/autoload.php';
 $vendorLoaded = false;
 if (file_exists($autoloadPath)) {
     require_once $autoloadPath;
